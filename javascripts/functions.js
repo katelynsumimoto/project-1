@@ -20,6 +20,10 @@ let arrMax = (arr) => {
     if (largest < elem)
       largest = elem;
   });
-
   console.log(largest);
+};
+
+//Req 3d
+let sumEvens = (arr) => {
+
 };
