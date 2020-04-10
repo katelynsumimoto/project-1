@@ -12,6 +12,7 @@ let controller = function() {
   do {
     die1 = rollDie();
     die2 = rollDie();
+    ++rollCount;
     console.log(`${die1}, ${die2}, ${rollCount}`);
   } while (die1 + die2 != target);
 

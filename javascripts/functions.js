@@ -24,9 +24,9 @@ let arrMax = (arr) => {
 };
 
 //Req 3d
-sumEvens = (array) => {
+sumEvens = (arr) => {
   var sum = 0;
-  for (var x of array) {
+  for (var x of arr) {
     if (x % 2 == 0) {
       sum = sum + x;
     }
